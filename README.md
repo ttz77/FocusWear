@@ -1,5 +1,5 @@
 # FocusWear
-Mindful tech for everyday focus
+Mindful tech for everyday focus.
 
 FocusWear is a smart-shirt that gives you ambient, real-time feedback on your physiological state—without screens, sounds, or distracting notifications.
 A tiny Pulse Sensor sewn into the shirt measures your heart rate which lights up a NeoPixel RGB LED. Colors shift from calming blues to alert reds, prompting you to stay relaxed, maintain focus, or step back before stress spikes.
@@ -12,18 +12,17 @@ Adafruit Neopixel: Drives the single RGB LED with simple setPixelColor() calls, 
 
 ## Setup instructions:
 
-Setup instructions: how to install dependencies, connect hardware, and run the system
 ### 1 . Hardware 
 
-Adafruit Flora (or any 3.3 V-logic Arduino-compatible board)
+- Adafruit Flora (or any 3.3 V-logic Arduino-compatible board)
 
-Pulse Sensor (PulseSensor.com) 
+- Pulse Sensor (PulseSensor.com) 
 
-Single NeoPixel (e.g., Adafruit Flora NeoPixel v2)
+- Single NeoPixel (e.g., Adafruit Flora NeoPixel v2)
 
-3.7 V Li-Po battery (≥500 mAh) + USB-C charging module
+- 3.7 V Li-Po battery (≥500 mAh) + USB-C charging module
 
-Conductive thread & fabric-safe insulation tape
+- Conductive thread & fabric-safe insulation tape
 
 ### 2 . Wiring 
 
@@ -48,7 +47,6 @@ Upload FocusWear.ino
 ```
 
 ## Usage instructions:
-Usage instructions: how to interact with your TUI
 
 1. Wear the shirt and lightly touch the pulse sensor with fingertip.
 
@@ -56,15 +54,16 @@ Usage instructions: how to interact with your TUI
 
 3. Glance-only feedback – the single NeoPixel near the sleeve edge shows your current heart-rate zone:
 
-BPM range | LED color | Meaning
-> 130 | Bright Red | Very high – take a break!
-111 – 130 | Reddish-Orange | High stress
-96 – 110 | Orange | Active / elevated
-81 – 95 | Yellow-Orange | Focused
-71 – 80 | Green | Normal
-61 – 70 | Cyan | Calm
-51 – 60 | Light Blue | Very calm
-≤ 50 | Blue | Resting / relaxed
+| BPM range  | LED color        | Meaning                  |
+|------------|------------------|---------------------------|
+| > 130      | Bright Red        | Very high – take a break! |
+| 111 – 130  | Reddish-Orange    | High stress               |
+| 96 – 110   | Orange            | Active / elevated         |
+| 81 – 95    | Yellow-Orange     | Focused                   |
+| 71 – 80    | Green             | Normal                    |
+| 61 – 70    | Cyan              | Calm                      |
+| 51 – 60    | Light Blue        | Very calm                 |
+| ≤ 50       | Blue              | Resting / relaxed         |
 
 
 If you want to personalize, can switch the colors and the thresholds for different colors for the heart rate in the loop() code. 
@@ -78,5 +77,6 @@ else if (BPM > 90) {            // was 80
 
 ## Credits:
 Created by Lauren Young, Tenzin Yangchen, and Tina Zhong.
+
 Code revisions with ChatGPT. 
 
