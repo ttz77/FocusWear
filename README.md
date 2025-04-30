@@ -29,6 +29,8 @@ Adafruit Neopixel: Drives the single RGB LED with simple setPixelColor() calls, 
 - Connect Neopixel to pin 6, 3.3V, and Ground on Arduino
 - Connect Pulse sensor to pin 9, 3.3V, and Ground on Arduino
 
+<img src="./arduinowires.jpeg" alt="wiring" width="200"/>
+
 ### 3 . Software  
 
 ```bash
