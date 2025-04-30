@@ -76,7 +76,7 @@ else if (BPM > 90) {            // was 80
 ```
 
 ## Credits:
-Created by Lauren Young, Tenzin Yangchen, and Tina Zhong.
-
-Code revisions with ChatGPT. 
+- Our Team: Lauren Young, Tenzin Yangchen, and Tina Zhong.
+- [Pulse Sensor Tutorial](https://lastminuteengineers.com/pulse-sensor-arduino-tutorial/)
+- Code revisions with ChatGPT. 
 
